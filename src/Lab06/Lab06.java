@@ -58,7 +58,7 @@ public class Lab06 {
                                         {{0, -1, -1},
                                          {0, -1,  1},
                                          {0, -1, -1}},
-    }; // uzupełnij maski
+    };
     
     // funkcja porównująca otoczenie piksela z maską
     private static int porownaj(BufferedImage biezacy,int i,int j) {

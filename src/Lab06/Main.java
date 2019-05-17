@@ -18,10 +18,10 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            BufferedImage in1 = ImageIO.read(new File("C:\\studies\\AiPO\\lab01\\untitled\\src\\Lab06\\12-b.bmp"));
-            BufferedImage in2 = ImageIO.read(new File("C:\\studies\\AiPO\\lab01\\untitled\\src\\Lab06\\12-t2.bmp"));
-            BufferedImage in3 = ImageIO.read(new File("C:\\studies\\AiPO\\lab01\\untitled\\src\\Lab06\\12-t3.bmp"));
-            BufferedImage in4 = ImageIO.read(new File("C:\\studies\\AiPO\\lab01\\untitled\\src\\Lab06\\12-t4.bmp"));
+            BufferedImage in1 = ImageIO.read(new File("C:\\studies\\AiPO\\lab01\\ImageProcessing\\src\\Lab06\\12-t1.bmp"));
+            BufferedImage in2 = ImageIO.read(new File("C:\\studies\\AiPO\\lab01\\ImageProcessing\\src\\Lab06\\12-t2.bmp"));
+            BufferedImage in3 = ImageIO.read(new File("C:\\studies\\AiPO\\lab01\\ImageProcessing\\src\\Lab06\\12-t3.bmp"));
+            BufferedImage in4 = ImageIO.read(new File("C:\\studies\\AiPO\\lab01\\ImageProcessing\\src\\Lab06\\12-t4.bmp"));
             
             Lab06.run(in1,in2,in3,in4);
                         
